@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "强制禁用网页字体",
+  "version": "1.4",
+  "description": "强制禁用网页字体",
+  "permissions": [
+    "browserSettings"
+  ],
+  "background": {
+    "scripts": [
+      "fddf.js"
+    ]
+  },
+  "icons": {
+    "64": "icons/fddf_64x64.png",
+    "128": "icons/fddf_128x128.png"
+  }
+}
